@@ -7,6 +7,21 @@ body {
     text-shadow: #3CC47C 0 0 10px;
 }
 
+.blurBox::before {
+    content: '';
+    background: inherit;
+    background-color: rgba(0, 0, 0, 0.726);
+    filter: blur(6px);
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -150px;
+    z-index: -1;
+}
+
 .center {
     text-align: center;
     margin-top: 220px;
