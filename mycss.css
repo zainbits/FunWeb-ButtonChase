@@ -1,5 +1,10 @@
 body {
     background-color: red;
+    background: url("res.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-shadow: #3CC47C 0 0 10px;
 }
 
 .center {
@@ -8,7 +13,12 @@ body {
 }
 
 .centerbtn {
+    transition: all 0.2s;
     background-color: green;
+    color: white;
+    border: solid black;
+    border-radius: 10px;
+    font-weight: bold;
     height: 75px;
     width: 75px;
     position: absolute;
